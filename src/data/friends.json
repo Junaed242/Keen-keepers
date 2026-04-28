@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Emma Wilson",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "emma.wilson@gmail.com",
+    "days_since_contact": 62,
+    "status": "overdue",
+    "tags": ["family", "close friend"],
+    "bio": "Former colleague turned lifelong friend. We bonded over late-night project sprints and terrible office coffee.",
+    "goal": 30,
+    "next_due_date": "2026-02-27"
+  },
+  {
+    "id": 2,
+    "name": "Tom Baker",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "tom.baker@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "travel"],
+    "bio": "Met backpacking through Southeast Asia. We still talk every week and plan annual road trips together.",
+    "goal": 14,
+    "next_due_date": "2026-05-02"
+  },
+  {
+    "id": 3,
+    "name": "Sarah Chen",
+    "picture": "https://randomuser.me/api/portraits/women/68.jpg",
+    "email": "sarah.chen@yahoo.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "mentor"],
+    "bio": "My first manager who became a genuine mentor and friend. Her advice shaped my entire career trajectory.",
+    "goal": 21,
+    "next_due_date": "2026-04-30"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Johnson",
+    "picture": "https://randomuser.me/api/portraits/men/75.jpg",
+    "email": "marcus.j@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["college", "hobby"],
+    "bio": "Roommate from freshman year. We share a deep love for jazz, chess, and arguing about football teams.",
+    "goal": 30,
+    "next_due_date": "2026-03-15"
+  },
+  {
+    "id": 5,
+    "name": "Olivia Martinez",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "olivia.m@protonmail.com",
+    "days_since_contact": 8,
+    "status": "on-track",
+    "tags": ["neighborhood", "close friend"],
+    "bio": "Next-door neighbor for six years. We look out for each other and have a standing Sunday brunch tradition.",
+    "goal": 14,
+    "next_due_date": "2026-05-05"
+  },
+  {
+    "id": 6,
+    "name": "Ryan O'Brien",
+    "picture": "https://randomuser.me/api/portraits/men/55.jpg",
+    "email": "ryan.obrien@icloud.com",
+    "days_since_contact": 35,
+    "status": "overdue",
+    "tags": ["work", "sports"],
+    "bio": "Gym buddy and former project partner. We push each other hard professionally and personally.",
+    "goal": 21,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 7,
+    "name": "Aisha Patel",
+    "picture": "https://randomuser.me/api/portraits/women/90.jpg",
+    "email": "aisha.patel@gmail.com",
+    "days_since_contact": 11,
+    "status": "almost due",
+    "tags": ["college", "travel"],
+    "bio": "Study abroad partner in Barcelona. We promised to visit a new country every year and we have kept that promise.",
+    "goal": 14,
+    "next_due_date": "2026-04-28"
+  },
+  {
+    "id": 8,
+    "name": "Lisa Nakamura",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "lisa.nakamura@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["work", "hobby"],
+    "bio": "Creative director I collaborated with on a design project. We still swap portfolio feedback and inspiration.",
+    "goal": 7,
+    "next_due_date": "2026-04-30"
+  }
+]
