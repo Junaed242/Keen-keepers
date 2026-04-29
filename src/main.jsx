@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
+import { TimelineProvider } from "./components/TimelineContext";
 import './index.css';
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -11,7 +12,11 @@ import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
-    element: <Layout />,
+    element: (
+      <TimelineProvider>
+        <Layout />
+      </TimelineProvider>
+    ),
     errorElement: <NotFound />,
     children: [
       { path: "/", element: <Home /> },
