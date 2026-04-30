@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <footer style={{ backgroundColor: "#1e3a2f" }} className="text-white">
+    <footer className="bg-[#1e3a2f] text-white">
       {/* Main Footer Content */}
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col items-center text-center gap-4">
         <h2 className="font-display text-4xl font-bold">KeenKeeper</h2>

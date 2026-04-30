@@ -40,8 +40,7 @@ export default function Home() {
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
         <button
-          className="btn gap-2 text-white"
-          style={{ backgroundColor: "#1e3a2f", borderColor: "#1e3a2f" }}
+          className="btn gap-2 text-white bg-[#1e3a2f] border-[#1e3a2f] hover:bg-[#2d5a43] hover:border-[#2d5a43]"
           onClick={() => alert("Add a Friend — coming soon!")}
         >
           <Plus size={16} /> Add a Friend
@@ -66,7 +65,7 @@ export default function Home() {
         <h2 className="font-display text-2xl font-bold mb-6">Your Friends</h2>
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 gap-4">
-            <span className="loading loading-spinner loading-lg" style={{ color: "#1e3a2f" }}></span>
+            <span className="loading loading-spinner loading-lg text-[#1e3a2f]"></span>
             <p className="text-base-content/50 text-sm">Loading your friends...</p>
           </div>
         ) : (
