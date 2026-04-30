@@ -1,8 +1,9 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
+import { Toaster } from "react-hot-toast";
 import { TimelineProvider } from "./components/TimelineContext";
-import './index.css';
+import "./index.css";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import FriendDetail from "./pages/FriendDetail";
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   {
     element: (
       <TimelineProvider>
+        <Toaster position="top-right" />
         <Layout />
       </TimelineProvider>
     ),
@@ -29,5 +31,5 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <RouterProvider router={router} />
+  <RouterProvider router={router} />,
 );
