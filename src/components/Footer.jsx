@@ -7,7 +7,7 @@ export default function Footer() {
       {/* Main Footer Content */}
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col items-center text-center gap-4">
         <h2 className="font-display text-4xl font-bold">KeenKeeper</h2>
-        <p className="text-white/70 text-sm max-w-md">
+        <p className="text-white/70 text-sm">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
         <p className="text-white/60 text-sm">Social Links</p>

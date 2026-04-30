@@ -35,7 +35,7 @@ export default function FriendDetail() {
     });
 
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8">
+    <div className="mx-18 px-4 sm:px-6 py-8">
       <button onClick={() => navigate(-1)} className="btn btn-ghost btn-sm gap-2 mb-6">
         <ArrowLeft size={15} /> Back
       </button>
@@ -62,9 +62,9 @@ export default function FriendDetail() {
                   </span>
                 ))}
               </div>
-              <p className="text-base-content/60 text-sm italic mt-2">"{friend.bio}"</p>
-              <p className="text-base-content/40 text-xs">Preferred: email</p>
-              <p className="text-base-content/40 text-xs">{friend.email}</p>
+              <p className="text-slate-400 text-sm italic mt-2">"{friend.bio}"</p>
+              <p className="text-slate-400 text-xs">Preferred: email</p>
+              <p className="text-slate-400 text-xs">{friend.email}</p>
             </div>
           </div>
 
@@ -72,11 +72,11 @@ export default function FriendDetail() {
           <div className="card bg-base-100 border border-base-200">
             <div className="card-body p-2 gap-1">
               <button className="btn btn-ghost btn-sm justify-start gap-3">
-                <Clock size={15} className="text-base-content/40" /> Snooze 2 Weeks
+                <Clock size={15} className="text-slate-400" /> Snooze 2 Weeks
               </button>
               <div className="divider my-0"></div>
               <button className="btn btn-ghost btn-sm justify-start gap-3">
-                <Archive size={15} className="text-base-content/40" /> Archive
+                <Archive size={15} className="text-slate-400" /> Archive
               </button>
               <div className="divider my-0"></div>
               <button className="btn btn-ghost btn-sm justify-start gap-3 text-error hover:bg-error/10">
@@ -93,19 +93,19 @@ export default function FriendDetail() {
             <div className="card bg-base-100 border border-base-200">
               <div className="card-body items-center text-center p-4">
                 <p className="text-2xl font-bold">{friend.days_since_contact}</p>
-                <p className="text-xs text-base-content/50">Days Since Contact</p>
+                <p className="text-xs text-slate-400">Days Since Contact</p>
               </div>
             </div>
             <div className="card bg-base-100 border border-base-200">
               <div className="card-body items-center text-center p-4">
                 <p className="text-2xl font-bold">{friend.goal}</p>
-                <p className="text-xs text-base-content/50">Goal (Days)</p>
+                <p className="text-xs text-slate-400">Goal (Days)</p>
               </div>
             </div>
             <div className="card bg-base-100 border border-base-200">
               <div className="card-body items-center text-center p-4">
                 <p className="text-base font-bold">{formatDate(friend.next_due_date)}</p>
-                <p className="text-xs text-base-content/50">Next Due</p>
+                <p className="text-xs text-slate-400">Next Due</p>
               </div>
             </div>
           </div>
@@ -119,8 +119,8 @@ export default function FriendDetail() {
                   <Edit size={11} /> Edit
                 </button>
               </div>
-              <p className="text-base-content/70 text-sm mt-1">
-                Connect every <span className="font-bold text-base-content">{friend.goal} days</span>
+              <p className="text-sm mt-1">
+                Connect every <span className="font-bold">{friend.goal} days</span>
               </p>
             </div>
           </div>

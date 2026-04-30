@@ -36,7 +36,7 @@ export default function Home() {
         <h1 className="font-display text-4xl font-bold mb-3">
           Friends to keep close in your life
         </h1>
-        <p className="text-base-content/60 max-w-md mx-auto mb-6">
+        <p className="text-base-content/60 mx-auto mb-6">
           Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
         </p>
         <button
@@ -47,7 +47,7 @@ export default function Home() {
         </button>
 
         {/* Summary Cards */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-3xl mx-auto mt-10">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mx-20 mt-10">
           {summaryCards.map((card) => (
             <div key={card.label} className="card bg-base-100 border border-base-200 shadow-sm">
               <div className="card-body items-center text-center p-4">
@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       {/* Friends Grid */}
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+      <div className="mx-10 md:mx-20 sm:px-6 py-10">
         <h2 className="font-display text-2xl font-bold mb-6">Your Friends</h2>
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 gap-4">
