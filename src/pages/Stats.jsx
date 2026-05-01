@@ -23,7 +23,7 @@ export default function Stats() {
   ].filter((d) => d.value > 0);
 
   return (
-    <div className="mx-10 md:mx-20 py-10">
+    <div className="mx-7 md:mx-20 py-10">
       <h1 className="font-display text-3xl font-bold mb-8">Friendship Analytics</h1>
       <div className="card bg-base-100 border border-base-200">
         <div className="card-body">

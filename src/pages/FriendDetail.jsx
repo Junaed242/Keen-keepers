@@ -35,7 +35,7 @@ export default function FriendDetail() {
     });
 
   return (
-    <div className="mx-18 px-4 sm:px-6 py-8">
+    <div className="md:mx-20 px-4 mx-5 py-8">
       <button onClick={() => navigate(-1)} className="btn btn-ghost btn-sm gap-2 mb-6">
         <ArrowLeft size={15} /> Back
       </button>

@@ -61,7 +61,7 @@ export default function Home() {
       </div>
 
       {/* Friends Grid */}
-      <div className="mx-10 md:mx-20 sm:px-6 py-10">
+      <div className="mx-10 md:mx-20 py-10">
         <h2 className="font-display text-2xl font-bold mb-6">Your Friends</h2>
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 gap-4">
